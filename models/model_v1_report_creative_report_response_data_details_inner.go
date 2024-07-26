@@ -228,7 +228,7 @@ type V1ReportCreativeReportResponseDataDetailsInner struct {
 	EventNextDayStayNew *int64 `json:"event_next_day_stay_new,omitempty"`
 	EventNextDayStayNewCost *float64 `json:"event_next_day_stay_new_cost,omitempty"`
 	EventNextDayStayNewRatio *float64 `json:"event_next_day_stay_new_ratio,omitempty"`
-	AdShow *int64 `json:"ad_show,omitempty"`
+	AdShow *float64 `json:"ad_show,omitempty"`
 	ActionNewRatio *float64 `json:"action_new_ratio,omitempty"`
 	EventOutboundCall *int64 `json:"event_outbound_call,omitempty"`
 	EventOutboundCallCost *float64 `json:"event_outbound_call_cost,omitempty"`

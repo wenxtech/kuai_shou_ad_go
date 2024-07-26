@@ -228,7 +228,7 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	EventNextDayStayNew *int64 `json:"event_next_day_stay_new,omitempty"`
 	EventNextDayStayNewCost *float64 `json:"event_next_day_stay_new_cost,omitempty"`
 	EventNextDayStayNewRatio *float64 `json:"event_next_day_stay_new_ratio,omitempty"`
-	AdShow *int64 `json:"ad_show,omitempty"`
+	AdShow *float64 `json:"ad_show,omitempty"`
 	ActionNewRatio *float64 `json:"action_new_ratio,omitempty"`
 	EventOutboundCall *int64 `json:"event_outbound_call,omitempty"`
 	EventOutboundCallCost *float64 `json:"event_outbound_call_cost,omitempty"`
@@ -239,7 +239,7 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	EventCreditCardRecheck *int64 `json:"event_credit_card_recheck,omitempty"`
 	EventCreditCardRecheckFirstDay *int64 `json:"event_credit_card_recheck_first_day,omitempty"`
 	EventNoIntention *int64 `json:"event_no_intention,omitempty"`
-	EventMultiPaySevenDayByConversion *int64 `json:"event_multi_pay_seven_day_by_conversion,omitempty"`
+	EventMultiPaySevenDayByConversion *float64 `json:"event_multi_pay_seven_day_by_conversion,omitempty"`
 	EventMultiPaySevenDayByConversionCost *float64 `json:"event_multi_pay_seven_day_by_conversion_cost,omitempty"`
 	McbLeftTimePerfCpaBid *float64 `json:"mcb_left_time_perf_cpa_bid,omitempty"`
 	McbLeftTimePerfRoiRatio *float64 `json:"mcb_left_time_perf_roi_ratio,omitempty"`
