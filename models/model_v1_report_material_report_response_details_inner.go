@@ -12,7 +12,7 @@ package models
 
 // V1ReportMaterialReportResponseDetailsInner struct for V1ReportMaterialReportResponseDetailsInner
 type V1ReportMaterialReportResponseDetailsInner struct {
-	Charge *float32 `json:"charge,omitempty"`
+	Charge *float64 `json:"charge,omitempty"`
 	Show *int64 `json:"show,omitempty"`
 	Aclick *int64 `json:"aclick,omitempty"`
 	Bclick *int64 `json:"bclick,omitempty"`
@@ -134,7 +134,7 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	ActionRatio *int64 `json:"action_ratio,omitempty"`
 	Impression1kCost *int64 `json:"impression_1k_cost,omitempty"`
 	PhotoClickCost *int64 `json:"photo_click_cost,omitempty"`
-	Click1kCost *float32 `json:"click_1k_cost,omitempty"`
+	Click1kCost *float64 `json:"click_1k_cost,omitempty"`
 	ActionCost *int64 `json:"action_cost,omitempty"`
 	EventPayFirstDay *int64 `json:"event_pay_first_day,omitempty"`
 	EventPayPurchaseAmountFirstDay *int64 `json:"event_pay_purchase_amount_first_day,omitempty"`

@@ -12,7 +12,7 @@ package models
 
 // V1ReportCreativeReportResponseDataDetailsInner struct for V1ReportCreativeReportResponseDataDetailsInner
 type V1ReportCreativeReportResponseDataDetailsInner struct {
-	Charge *float32 `json:"charge,omitempty"`
+	Charge *float64 `json:"charge,omitempty"`
 	Show *int64 `json:"show,omitempty"`
 	Aclick *int64 `json:"aclick,omitempty"`
 	Bclick *int64 `json:"bclick,omitempty"`

@@ -12,7 +12,7 @@ package models
 
 // V1ReportUnitReportResponseDataDetailsInner struct for V1ReportUnitReportResponseDataDetailsInner
 type V1ReportUnitReportResponseDataDetailsInner struct {
-	Charge *float32 `json:"charge,omitempty"`
+	Charge *float64 `json:"charge,omitempty"`
 	Show *int64 `json:"show,omitempty"`
 	Aclick *int64 `json:"aclick,omitempty"`
 	Bclick *int64 `json:"bclick,omitempty"`
@@ -126,12 +126,12 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	StatDate *string `json:"stat_date,omitempty"`
 	StatHour *int64 `json:"stat_hour,omitempty"`
 	PhotoClick *int64 `json:"photo_click,omitempty"`
-	PhotoClickRatio *float32 `json:"photo_click_ratio,omitempty"`
-	ActionRatio *float32 `json:"action_ratio,omitempty"`
-	Impression1kCost *float32 `json:"impression_1k_cost,omitempty"`
-	PhotoClickCost *float32 `json:"photo_click_cost,omitempty"`
-	Click1kCost *float32 `json:"click_1k_cost,omitempty"`
-	ActionCost *float32 `json:"action_cost,omitempty"`
+	PhotoClickRatio *float64 `json:"photo_click_ratio,omitempty"`
+	ActionRatio *float64 `json:"action_ratio,omitempty"`
+	Impression1kCost *float64 `json:"impression_1k_cost,omitempty"`
+	PhotoClickCost *float64 `json:"photo_click_cost,omitempty"`
+	Click1kCost *float64 `json:"click_1k_cost,omitempty"`
+	ActionCost *float64 `json:"action_cost,omitempty"`
 	EventPayFirstDay *int64 `json:"event_pay_first_day,omitempty"`
 	EventPayPurchaseAmountFirstDay *int64 `json:"event_pay_purchase_amount_first_day,omitempty"`
 	EventPayFirstDayRoi *int64 `json:"event_pay_first_day_roi,omitempty"`
@@ -162,7 +162,7 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	EventNextDayStayCost *int64 `json:"event_next_day_stay_cost,omitempty"`
 	EventNextDayStayRatio *int64 `json:"event_next_day_stay_ratio,omitempty"`
 	EventNextDayStay *int64 `json:"event_next_day_stay,omitempty"`
-	Play3sRatio *float32 `json:"play_3s_ratio,omitempty"`
+	Play3sRatio *float64 `json:"play_3s_ratio,omitempty"`
 	EventValidClues *int64 `json:"event_valid_clues,omitempty"`
 	EventValidCluesCost *int64 `json:"event_valid_clues_cost,omitempty"`
 	AdProductCnt *int64 `json:"ad_product_cnt,omitempty"`
@@ -170,15 +170,15 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	MerchantRecoFans *int64 `json:"merchant_reco_fans,omitempty"`
 	EventOrderAmountRoi *int64 `json:"event_order_amount_roi,omitempty"`
 	EventGoodsViewCost *int64 `json:"event_goods_view_cost,omitempty"`
-	MerchantRecoFansCost *float32 `json:"merchant_reco_fans_cost,omitempty"`
+	MerchantRecoFansCost *float64 `json:"merchant_reco_fans_cost,omitempty"`
 	EventNewUserPay *int64 `json:"event_new_user_pay,omitempty"`
 	EventNewUserPayCost *int64 `json:"event_new_user_pay_cost,omitempty"`
 	EventNewUserPayRatio *int64 `json:"event_new_user_pay_ratio,omitempty"`
 	EventButtonClick *int64 `json:"event_button_click,omitempty"`
 	EventButtonClickCost *int64 `json:"event_button_click_cost,omitempty"`
 	EventButtonClickRatio *int64 `json:"event_button_click_ratio,omitempty"`
-	Play5sRatio *float32 `json:"play_5s_ratio,omitempty"`
-	PlayEndRatio *float32 `json:"play_end_ratio,omitempty"`
+	Play5sRatio *float64 `json:"play_5s_ratio,omitempty"`
+	PlayEndRatio *float64 `json:"play_end_ratio,omitempty"`
 	EventOrderPaidRoi *int64 `json:"event_order_paid_roi,omitempty"`
 	EventNewUserJinjianApp *int64 `json:"event_new_user_jinjian_app,omitempty"`
 	EventNewUserJinjianAppCost *int64 `json:"event_new_user_jinjian_app_cost,omitempty"`
@@ -217,9 +217,9 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	EventGetThrough *int64 `json:"event_get_through,omitempty"`
 	EventGetThroughCost *int64 `json:"event_get_through_cost,omitempty"`
 	EventGetThroughRatio *int64 `json:"event_get_through_ratio,omitempty"`
-	AdPhotoPlayed75percentRatio *float32 `json:"ad_photo_played_75percent_ratio,omitempty"`
-	AdPhotoPlayed10sRatio *float32 `json:"ad_photo_played_10s_ratio,omitempty"`
-	AdPhotoPlayed2sRatio *float32 `json:"ad_photo_played_2s_ratio,omitempty"`
+	AdPhotoPlayed75percentRatio *float64 `json:"ad_photo_played_75percent_ratio,omitempty"`
+	AdPhotoPlayed10sRatio *float64 `json:"ad_photo_played_10s_ratio,omitempty"`
+	AdPhotoPlayed2sRatio *float64 `json:"ad_photo_played_2s_ratio,omitempty"`
 	EventPhoneGetThrough *int64 `json:"event_phone_get_through,omitempty"`
 	EventIntentionConfirmed *int64 `json:"event_intention_confirmed,omitempty"`
 	EventWechatConnected *int64 `json:"event_wechat_connected,omitempty"`
@@ -230,7 +230,7 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	EventNextDayStayNewCost *int64 `json:"event_next_day_stay_new_cost,omitempty"`
 	EventNextDayStayNewRatio *int64 `json:"event_next_day_stay_new_ratio,omitempty"`
 	AdShow *int64 `json:"ad_show,omitempty"`
-	ActionNewRatio *float32 `json:"action_new_ratio,omitempty"`
+	ActionNewRatio *float64 `json:"action_new_ratio,omitempty"`
 	EventOutboundCall *int64 `json:"event_outbound_call,omitempty"`
 	EventOutboundCallCost *int64 `json:"event_outbound_call_cost,omitempty"`
 	EventOutboundCallRatio *int64 `json:"event_outbound_call_ratio,omitempty"`

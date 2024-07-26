@@ -12,7 +12,7 @@ package models
 
 // V1ReportAccountReportResponseDataDetailsInner struct for V1ReportAccountReportResponseDataDetailsInner
 type V1ReportAccountReportResponseDataDetailsInner struct {
-	Charge *float32 `json:"charge,omitempty"`
+	Charge *float64 `json:"charge,omitempty"`
 	Show *int64 `json:"show,omitempty"`
 	Aclick *int64 `json:"aclick,omitempty"`
 	Bclick *int64 `json:"bclick,omitempty"`
@@ -31,24 +31,24 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	CancelLike *int64 `json:"cancel_like,omitempty"`
 	ClickConversionRatio *int64 `json:"click_conversion_ratio,omitempty"`
 	ConversionCost *int64 `json:"conversion_cost,omitempty"`
-	ConversionCostByImpression7d *float32 `json:"conversion_cost_by_impression_7d,omitempty"`
+	ConversionCostByImpression7d *float64 `json:"conversion_cost_by_impression_7d,omitempty"`
 	ConversionNum *int64 `json:"conversion_num,omitempty"`
 	ConversionNumByImpression7d *int64 `json:"conversion_num_by_impression_7d,omitempty"`
-	ConversionNumCost *float32 `json:"conversion_num_cost,omitempty"`
+	ConversionNumCost *float64 `json:"conversion_num_cost,omitempty"`
 	ConversionRatio *int64 `json:"conversion_ratio,omitempty"`
-	ConversionRatioByImpression7d *float32 `json:"conversion_ratio_by_impression_7d,omitempty"`
+	ConversionRatioByImpression7d *float64 `json:"conversion_ratio_by_impression_7d,omitempty"`
 	DeepConversionCost *int64 `json:"deep_conversion_cost,omitempty"`
 	DeepConversionCostByImpression7d *int64 `json:"deep_conversion_cost_by_impression_7d,omitempty"`
 	DeepConversionNum *int64 `json:"deep_conversion_num,omitempty"`
 	DeepConversionNumByImpression7d *int64 `json:"deep_conversion_num_by_impression_7d,omitempty"`
 	DeepConversionRatio *int64 `json:"deep_conversion_ratio,omitempty"`
 	DeepConversionRatioByImpression7d *int64 `json:"deep_conversion_ratio_by_impression_7d,omitempty"`
-	DownloadCompletedCost *float32 `json:"download_completed_cost,omitempty"`
+	DownloadCompletedCost *float64 `json:"download_completed_cost,omitempty"`
 	DownloadCompletedRatio *int64 `json:"download_completed_ratio,omitempty"`
 	DownloadConversionRatio *int64 `json:"download_conversion_ratio,omitempty"`
 	DownloadInstalled *int64 `json:"download_installed,omitempty"`
-	DownloadStartedCost *float32 `json:"download_started_cost,omitempty"`
-	DownloadStartedRatio *float32 `json:"download_started_ratio,omitempty"`
+	DownloadStartedCost *float64 `json:"download_started_cost,omitempty"`
+	DownloadStartedRatio *float64 `json:"download_started_ratio,omitempty"`
 	Event24hStay *int64 `json:"event_24h_stay,omitempty"`
 	Event24hStayByConversion *int64 `json:"event_24h_stay_by_conversion,omitempty"`
 	Event24hStayByConversionCost *int64 `json:"event_24h_stay_by_conversion_cost,omitempty"`
@@ -126,12 +126,12 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	StatDate *string `json:"stat_date,omitempty"`
 	StatHour *int64 `json:"stat_hour,omitempty"`
 	PhotoClick *int64 `json:"photo_click,omitempty"`
-	PhotoClickRatio *float32 `json:"photo_click_ratio,omitempty"`
-	ActionRatio *float32 `json:"action_ratio,omitempty"`
-	Impression1kCost *float32 `json:"impression_1k_cost,omitempty"`
-	PhotoClickCost *float32 `json:"photo_click_cost,omitempty"`
-	Click1kCost *float32 `json:"click_1k_cost,omitempty"`
-	ActionCost *float32 `json:"action_cost,omitempty"`
+	PhotoClickRatio *float64 `json:"photo_click_ratio,omitempty"`
+	ActionRatio *float64 `json:"action_ratio,omitempty"`
+	Impression1kCost *float64 `json:"impression_1k_cost,omitempty"`
+	PhotoClickCost *float64 `json:"photo_click_cost,omitempty"`
+	Click1kCost *float64 `json:"click_1k_cost,omitempty"`
+	ActionCost *float64 `json:"action_cost,omitempty"`
 	EventPayFirstDay *int64 `json:"event_pay_first_day,omitempty"`
 	EventPayPurchaseAmountFirstDay *int64 `json:"event_pay_purchase_amount_first_day,omitempty"`
 	EventPayFirstDayRoi *int64 `json:"event_pay_first_day_roi,omitempty"`
@@ -152,8 +152,8 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	EventOrderPaidPurchaseAmount *int64 `json:"event_order_paid_purchase_amount,omitempty"`
 	EventOrderPaidCost *int64 `json:"event_order_paid_cost,omitempty"`
 	FormCount *int64 `json:"form_count,omitempty"`
-	FormCost *float32 `json:"form_cost,omitempty"`
-	FormActionRatio *float32 `json:"form_action_ratio,omitempty"`
+	FormCost *float64 `json:"form_cost,omitempty"`
+	FormActionRatio *float64 `json:"form_action_ratio,omitempty"`
 	EventJinJianLandingPage *int64 `json:"event_jin_jian_landing_page,omitempty"`
 	EventJinJianLandingPageCost *int64 `json:"event_jin_jian_landing_page_cost,omitempty"`
 	EventCreditGrantLandingPage *int64 `json:"event_credit_grant_landing_page,omitempty"`
@@ -162,7 +162,7 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	EventNextDayStayCost *int64 `json:"event_next_day_stay_cost,omitempty"`
 	EventNextDayStayRatio *int64 `json:"event_next_day_stay_ratio,omitempty"`
 	EventNextDayStay *int64 `json:"event_next_day_stay,omitempty"`
-	Play3sRatio *float32 `json:"play_3s_ratio,omitempty"`
+	Play3sRatio *float64 `json:"play_3s_ratio,omitempty"`
 	EventValidClues *int64 `json:"event_valid_clues,omitempty"`
 	EventValidCluesCost *int64 `json:"event_valid_clues_cost,omitempty"`
 	AdProductCnt *int64 `json:"ad_product_cnt,omitempty"`
@@ -170,15 +170,15 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	MerchantRecoFans *int64 `json:"merchant_reco_fans,omitempty"`
 	EventOrderAmountRoi *int64 `json:"event_order_amount_roi,omitempty"`
 	EventGoodsViewCost *int64 `json:"event_goods_view_cost,omitempty"`
-	MerchantRecoFansCost *float32 `json:"merchant_reco_fans_cost,omitempty"`
+	MerchantRecoFansCost *float64 `json:"merchant_reco_fans_cost,omitempty"`
 	EventNewUserPay *int64 `json:"event_new_user_pay,omitempty"`
 	EventNewUserPayCost *int64 `json:"event_new_user_pay_cost,omitempty"`
 	EventNewUserPayRatio *int64 `json:"event_new_user_pay_ratio,omitempty"`
 	EventButtonClick *int64 `json:"event_button_click,omitempty"`
 	EventButtonClickCost *int64 `json:"event_button_click_cost,omitempty"`
 	EventButtonClickRatio *int64 `json:"event_button_click_ratio,omitempty"`
-	Play5sRatio *float32 `json:"play_5s_ratio,omitempty"`
-	PlayEndRatio *float32 `json:"play_end_ratio,omitempty"`
+	Play5sRatio *float64 `json:"play_5s_ratio,omitempty"`
+	PlayEndRatio *float64 `json:"play_end_ratio,omitempty"`
 	EventOrderPaidRoi *int64 `json:"event_order_paid_roi,omitempty"`
 	EventNewUserJinjianApp *int64 `json:"event_new_user_jinjian_app,omitempty"`
 	EventNewUserJinjianAppCost *int64 `json:"event_new_user_jinjian_app_cost,omitempty"`
@@ -217,9 +217,9 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	EventGetThrough *int64 `json:"event_get_through,omitempty"`
 	EventGetThroughCost *int64 `json:"event_get_through_cost,omitempty"`
 	EventGetThroughRatio *int64 `json:"event_get_through_ratio,omitempty"`
-	AdPhotoPlayed75percentRatio *float32 `json:"ad_photo_played_75percent_ratio,omitempty"`
-	AdPhotoPlayed10sRatio *float32 `json:"ad_photo_played_10s_ratio,omitempty"`
-	AdPhotoPlayed2sRatio *float32 `json:"ad_photo_played_2s_ratio,omitempty"`
+	AdPhotoPlayed75percentRatio *float64 `json:"ad_photo_played_75percent_ratio,omitempty"`
+	AdPhotoPlayed10sRatio *float64 `json:"ad_photo_played_10s_ratio,omitempty"`
+	AdPhotoPlayed2sRatio *float64 `json:"ad_photo_played_2s_ratio,omitempty"`
 	EventPhoneGetThrough *int64 `json:"event_phone_get_through,omitempty"`
 	EventIntentionConfirmed *int64 `json:"event_intention_confirmed,omitempty"`
 	EventWechatConnected *int64 `json:"event_wechat_connected,omitempty"`
@@ -230,7 +230,7 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	EventNextDayStayNewCost *int64 `json:"event_next_day_stay_new_cost,omitempty"`
 	EventNextDayStayNewRatio *int64 `json:"event_next_day_stay_new_ratio,omitempty"`
 	AdShow *int64 `json:"ad_show,omitempty"`
-	ActionNewRatio *float32 `json:"action_new_ratio,omitempty"`
+	ActionNewRatio *float64 `json:"action_new_ratio,omitempty"`
 	EventOutboundCall *int64 `json:"event_outbound_call,omitempty"`
 	EventOutboundCallCost *int64 `json:"event_outbound_call_cost,omitempty"`
 	EventOutboundCallRatio *int64 `json:"event_outbound_call_ratio,omitempty"`
@@ -262,9 +262,9 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	AdAppDownloadHalfImpression *int64 `json:"ad_app_download_half_impression,omitempty"`
 	EventDrawCreditLine *int64 `json:"event_draw_credit_line,omitempty"`
 	EventActive *int64 `json:"event_active,omitempty"`
-	EventOrderSubmitCost *float32 `json:"event_order_submit_cost,omitempty"`
+	EventOrderSubmitCost *float64 `json:"event_order_submit_cost,omitempty"`
 	EventOrderSubmit *int64 `json:"event_order_submit,omitempty"`
-	DirectSubmit1dCost *float32 `json:"direct_submit_1d_cost,omitempty"`
+	DirectSubmit1dCost *float64 `json:"direct_submit_1d_cost,omitempty"`
 	OrderSubmitAmt *int64 `json:"order_submit_amt,omitempty"`
 	OrderSubmitRoi *int64 `json:"order_submit_roi,omitempty"`
 	EventWeekTotalStayByConversion *int64 `json:"event_week_total_stay_by_conversion,omitempty"`
