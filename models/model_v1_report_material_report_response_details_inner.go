@@ -227,7 +227,7 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventOrderSuccessed *int64 `json:"event_order_successed,omitempty"`
 	EventPhoneCardActivate *int64 `json:"event_phone_card_activate,omitempty"`
 	EventMeasurementHouse *int64 `json:"event_measurement_house,omitempty"`
-	AdShow *nil `json:"ad_show,omitempty"`
+	AdShow *float64 `json:"ad_show,omitempty"`
 	ActionNewRatio *float64 `json:"action_new_ratio,omitempty"`
 	EventOutboundCall *int64 `json:"event_outbound_call,omitempty"`
 	EventOutboundCallCost *float64 `json:"event_outbound_call_cost,omitempty"`

@@ -241,10 +241,10 @@ type V1ReportCreativeReportResponseDataDetailsInner struct {
 	EventNoIntention *int64 `json:"event_no_intention,omitempty"`
 	EventMultiPaySevenDayByConversion *int64 `json:"event_multi_pay_seven_day_by_conversion,omitempty"`
 	EventMultiPaySevenDayByConversionCost *float64 `json:"event_multi_pay_seven_day_by_conversion_cost,omitempty"`
-	McbLeftTimePerfCpaBid *nil `json:"mcb_left_time_perf_cpa_bid,omitempty"`
-	McbLeftTimePerfRoiRatio *nil `json:"mcb_left_time_perf_roi_ratio,omitempty"`
-	McbAllDayPerfCpaBid *nil `json:"mcb_all_day_perf_cpa_bid,omitempty"`
-	McbAllDayPerfRoiRatio *nil `json:"mcb_all_day_perf_roi_ratio,omitempty"`
+	McbLeftTimePerfCpaBid *float64 `json:"mcb_left_time_perf_cpa_bid,omitempty"`
+	McbLeftTimePerfRoiRatio *float64 `json:"mcb_left_time_perf_roi_ratio,omitempty"`
+	McbAllDayPerfCpaBid *float64 `json:"mcb_all_day_perf_cpa_bid,omitempty"`
+	McbAllDayPerfRoiRatio *float64 `json:"mcb_all_day_perf_roi_ratio,omitempty"`
 	LiveRoomAvgPlayedSeconds *int64 `json:"live_room_avg_played_seconds,omitempty"`
 	AdLiveShare *int64 `json:"ad_live_share,omitempty"`
 	AdLiveComment *int64 `json:"ad_live_comment,omitempty"`
@@ -272,7 +272,7 @@ type V1ReportCreativeReportResponseDataDetailsInner struct {
 	EventWeekTotalStayNewCost *float64 `json:"event_week_total_stay_new_cost,omitempty"`
 	EventWeekTotalStayByConversionRatio *float64 `json:"event_week_total_stay_by_conversion_ratio,omitempty"`
 	EventWeekTotalStayNewRatio *float64 `json:"event_week_total_stay_new_ratio,omitempty"`
-	RelevanceScoreAvg *nil `json:"relevance_score_avg,omitempty"`
+	RelevanceScoreAvg *float64 `json:"relevance_score_avg,omitempty"`
 	MinigameIaaPurchaseAmountFirstDay *int64 `json:"minigame_iaa_purchase_amount_first_day,omitempty"`
 	MinigameIaaPurchaseAmountThreeDayByConversion *int64 `json:"minigame_iaa_purchase_amount_three_day_by_conversion,omitempty"`
 	MinigameIaaPurchaseAmountWeekByConversion *int64 `json:"minigame_iaa_purchase_amount_week_by_conversion,omitempty"`
