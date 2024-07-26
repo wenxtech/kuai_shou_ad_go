@@ -248,7 +248,7 @@ type V1ReportAccountReportResponseDataDetailsInner struct {
 	LiveRoomAvgPlayedSeconds *float64 `json:"live_room_avg_played_seconds,omitempty"`
 	AdLiveShare *int64 `json:"ad_live_share,omitempty"`
 	AdLiveComment *int64 `json:"ad_live_comment,omitempty"`
-	LivePlayedStarted *int64 `json:"live_played_started,omitempty"`
+	LivePlayedStarted *float64 `json:"live_played_started,omitempty"`
 	LivePlayedStartedCost *float64 `json:"live_played_started_cost,omitempty"`
 	AdLiveFollow *int64 `json:"ad_live_follow,omitempty"`
 	AdLiveFollowCost *float64 `json:"ad_live_follow_cost,omitempty"`

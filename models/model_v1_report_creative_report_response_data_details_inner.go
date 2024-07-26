@@ -248,12 +248,12 @@ type V1ReportCreativeReportResponseDataDetailsInner struct {
 	LiveRoomAvgPlayedSeconds *float64 `json:"live_room_avg_played_seconds,omitempty"`
 	AdLiveShare *int64 `json:"ad_live_share,omitempty"`
 	AdLiveComment *int64 `json:"ad_live_comment,omitempty"`
-	LivePlayedStarted *int64 `json:"live_played_started,omitempty"`
+	LivePlayedStarted *float64 `json:"live_played_started,omitempty"`
 	LivePlayedStartedCost *float64 `json:"live_played_started_cost,omitempty"`
 	AdLiveFollow *int64 `json:"ad_live_follow,omitempty"`
 	AdLiveFollowCost *float64 `json:"ad_live_follow_cost,omitempty"`
-	SimpleLivePlayedStarted *int64 `json:"simple_live_played_started,omitempty"`
-	StandardLivePlayedStarted *int64 `json:"standard_live_played_started,omitempty"`
+	SimpleLivePlayedStarted *float64 `json:"simple_live_played_started,omitempty"`
+	StandardLivePlayedStarted *float64 `json:"standard_live_played_started,omitempty"`
 	ConversionComponentImpression *int64 `json:"conversion_component_impression,omitempty"`
 	ConversionComponentClick *int64 `json:"conversion_component_click,omitempty"`
 	ConversionComponentRate *float64 `json:"conversion_component_rate,omitempty"`
