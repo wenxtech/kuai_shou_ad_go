@@ -86,18 +86,18 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventMakingCallsCost *float64 `json:"event_making_calls_cost,omitempty"`
 	EventMakingCallsRatio *float64 `json:"event_making_calls_ratio,omitempty"`
 	EventOrderSubmit *int64 `json:"event_order_submit,omitempty"`
-	EventPayPurchaseAmountOneDay *int64 `json:"event_pay_purchase_amount_one_day,omitempty"`
-	EventPayPurchaseAmountOneDayByConversion *int64 `json:"event_pay_purchase_amount_one_day_by_conversion,omitempty"`
+	EventPayPurchaseAmountOneDay *float64 `json:"event_pay_purchase_amount_one_day,omitempty"`
+	EventPayPurchaseAmountOneDayByConversion *float64 `json:"event_pay_purchase_amount_one_day_by_conversion,omitempty"`
 	EventPayPurchaseAmountOneDayByConversionRoi *float64 `json:"event_pay_purchase_amount_one_day_by_conversion_roi,omitempty"`
 	EventPayPurchaseAmountOneDayRoi *float64 `json:"event_pay_purchase_amount_one_day_roi,omitempty"`
-	EventPayPurchaseAmountThreeDayByConversion *int64 `json:"event_pay_purchase_amount_three_day_by_conversion,omitempty"`
+	EventPayPurchaseAmountThreeDayByConversion *float64 `json:"event_pay_purchase_amount_three_day_by_conversion,omitempty"`
 	EventPayPurchaseAmountThreeDayByConversionRoi *float64 `json:"event_pay_purchase_amount_three_day_by_conversion_roi,omitempty"`
-	EventPayPurchaseAmountWeekByConversion *int64 `json:"event_pay_purchase_amount_week_by_conversion,omitempty"`
+	EventPayPurchaseAmountWeekByConversion *float64 `json:"event_pay_purchase_amount_week_by_conversion,omitempty"`
 	EventPayPurchaseAmountWeekByConversionRoi *float64 `json:"event_pay_purchase_amount_week_by_conversion_roi,omitempty"`
 	EventPayWeekByConversion *int64 `json:"event_pay_week_by_conversion,omitempty"`
 	EventPayWeekByConversionCost *float64 `json:"event_pay_week_by_conversion_cost,omitempty"`
-	EventPayWeightedPurchaseAmount *int64 `json:"event_pay_weighted_purchase_amount,omitempty"`
-	EventPayWeightedPurchaseAmountFirstDay *int64 `json:"event_pay_weighted_purchase_amount_first_day,omitempty"`
+	EventPayWeightedPurchaseAmount *float64 `json:"event_pay_weighted_purchase_amount,omitempty"`
+	EventPayWeightedPurchaseAmountFirstDay *float64 `json:"event_pay_weighted_purchase_amount_first_day,omitempty"`
 	EventPreComponentConsultationValidRetained *int64 `json:"event_pre_component_consultation_valid_retained,omitempty"`
 	EventSixDayStayByConversion *int64 `json:"event_six_day_stay_by_conversion,omitempty"`
 	EventSixDayStayByConversionCost *float64 `json:"event_six_day_stay_by_conversion_cost,omitempty"`
@@ -136,10 +136,10 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	Click1kCost *float64 `json:"click_1k_cost,omitempty"`
 	ActionCost *float64 `json:"action_cost,omitempty"`
 	EventPayFirstDay *int64 `json:"event_pay_first_day,omitempty"`
-	EventPayPurchaseAmountFirstDay *int64 `json:"event_pay_purchase_amount_first_day,omitempty"`
+	EventPayPurchaseAmountFirstDay *float64 `json:"event_pay_purchase_amount_first_day,omitempty"`
 	EventPayFirstDayRoi *float64 `json:"event_pay_first_day_roi,omitempty"`
 	EventPay *int64 `json:"event_pay,omitempty"`
-	EventPayPurchaseAmount *int64 `json:"event_pay_purchase_amount,omitempty"`
+	EventPayPurchaseAmount *float64 `json:"event_pay_purchase_amount,omitempty"`
 	EventPayRoi *float64 `json:"event_pay_roi,omitempty"`
 	EventRegister *int64 `json:"event_register,omitempty"`
 	EventRegisterCost *float64 `json:"event_register_cost,omitempty"`
@@ -150,7 +150,7 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventCreditGrantAppCost *float64 `json:"event_credit_grant_app_cost,omitempty"`
 	EventCreditGrantAppRatio *float64 `json:"event_credit_grant_app_ratio,omitempty"`
 	EventOrderPaid *int64 `json:"event_order_paid,omitempty"`
-	EventOrderPaidPurchaseAmount *int64 `json:"event_order_paid_purchase_amount,omitempty"`
+	EventOrderPaidPurchaseAmount *float64 `json:"event_order_paid_purchase_amount,omitempty"`
 	EventOrderPaidCost *float64 `json:"event_order_paid_cost,omitempty"`
 	FormCount *int64 `json:"form_count,omitempty"`
 	FormCost *float64 `json:"form_cost,omitempty"`
