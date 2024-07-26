@@ -240,7 +240,7 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventNoIntention *int64 `json:"event_no_intention,omitempty"`
 	EventActive *int64 `json:"event_active,omitempty"`
 	EventOrderSubmitCost *float64 `json:"event_order_submit_cost,omitempty"`
-	OrderSubmitAmt *int64 `json:"order_submit_amt,omitempty"`
+	OrderSubmitAmt *float64 `json:"order_submit_amt,omitempty"`
 	OrderSubmitRoi *float64 `json:"order_submit_roi,omitempty"`
 	NativeFlowSoftCostTotal *float64 `json:"native_flow_soft_cost_total,omitempty"`
 	NativeCostTotal *float64 `json:"native_cost_total,omitempty"`

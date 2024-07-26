@@ -245,7 +245,7 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	McbLeftTimePerfRoiRatio *float64 `json:"mcb_left_time_perf_roi_ratio,omitempty"`
 	McbAllDayPerfCpaBid *float64 `json:"mcb_all_day_perf_cpa_bid,omitempty"`
 	McbAllDayPerfRoiRatio *float64 `json:"mcb_all_day_perf_roi_ratio,omitempty"`
-	LiveRoomAvgPlayedSeconds *int64 `json:"live_room_avg_played_seconds,omitempty"`
+	LiveRoomAvgPlayedSeconds *float64 `json:"live_room_avg_played_seconds,omitempty"`
 	AdLiveShare *int64 `json:"ad_live_share,omitempty"`
 	AdLiveComment *int64 `json:"ad_live_comment,omitempty"`
 	LivePlayedStarted *int64 `json:"live_played_started,omitempty"`
@@ -256,7 +256,7 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	StandardLivePlayedStarted *int64 `json:"standard_live_played_started,omitempty"`
 	ConversionComponentImpression *int64 `json:"conversion_component_impression,omitempty"`
 	ConversionComponentClick *int64 `json:"conversion_component_click,omitempty"`
-	ConversionComponentRate *int64 `json:"conversion_component_rate,omitempty"`
+	ConversionComponentRate *float64 `json:"conversion_component_rate,omitempty"`
 	AdLandingPageImpression *int64 `json:"ad_landing_page_impression,omitempty"`
 	AdAppDownloadHalfImpression *int64 `json:"ad_app_download_half_impression,omitempty"`
 	EventDrawCreditLine *int64 `json:"event_draw_credit_line,omitempty"`
@@ -264,7 +264,7 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	EventOrderSubmitCost *float64 `json:"event_order_submit_cost,omitempty"`
 	EventOrderSubmit *int64 `json:"event_order_submit,omitempty"`
 	DirectSubmit1dCost *float64 `json:"direct_submit_1d_cost,omitempty"`
-	OrderSubmitAmt *int64 `json:"order_submit_amt,omitempty"`
+	OrderSubmitAmt *float64 `json:"order_submit_amt,omitempty"`
 	OrderSubmitRoi *float64 `json:"order_submit_roi,omitempty"`
 	EventWeekTotalStayByConversion *int64 `json:"event_week_total_stay_by_conversion,omitempty"`
 	EventWeekTotalStayNew *int64 `json:"event_week_total_stay_new,omitempty"`
@@ -281,7 +281,7 @@ type V1ReportUnitReportResponseDataDetailsInner struct {
 	MinigameIaaPurchaseAmountWeekByConversionRoi *float64 `json:"minigame_iaa_purchase_amount_week_by_conversion_roi,omitempty"`
 	MinigameIaaPurchaseAmount *float64 `json:"minigame_iaa_purchase_amount,omitempty"`
 	MinigameIaaPurchaseRoi *float64 `json:"minigame_iaa_purchase_roi,omitempty"`
-	T7PaiedAmt *int64 `json:"t7_paied_amt,omitempty"`
+	T7PaiedAmt *float64 `json:"t7_paied_amt,omitempty"`
 	EventEffectiveCustomerAcquisitionCnt *int64 `json:"event_effective_customer_acquisition_cnt,omitempty"`
 	EventEffectiveCustomerAcquisitionCost *float64 `json:"event_effective_customer_acquisition_cost,omitempty"`
 	EventEffectiveCustomerAcquisitionRatio *float64 `json:"event_effective_customer_acquisition_ratio,omitempty"`
