@@ -97,8 +97,8 @@ func NewConfiguration() *Configuration {
 		Debug:            false,
 		Servers:          ServerConfigurations{
 			{
-				URL: "",
-				Description: "No description provided",
+				URL: "https://ad.e.kuaishou.com/rest/openapi",
+				Description: "正式环境",
 			},
 		},
 		OperationServers: map[string]ServerConfigurations{

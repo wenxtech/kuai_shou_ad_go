@@ -73,7 +73,7 @@ ctx = context.WithValue(context.Background(), kuai_shou_ad_go.ContextOperationSe
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://ad.e.kuaishou.com/rest/openapi*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
