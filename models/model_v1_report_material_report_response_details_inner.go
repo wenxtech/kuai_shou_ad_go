@@ -88,12 +88,12 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventOrderSubmit *int64 `json:"event_order_submit,omitempty"`
 	EventPayPurchaseAmountOneDay *int64 `json:"event_pay_purchase_amount_one_day,omitempty"`
 	EventPayPurchaseAmountOneDayByConversion *int64 `json:"event_pay_purchase_amount_one_day_by_conversion,omitempty"`
-	EventPayPurchaseAmountOneDayByConversionRoi *int64 `json:"event_pay_purchase_amount_one_day_by_conversion_roi,omitempty"`
-	EventPayPurchaseAmountOneDayRoi *int64 `json:"event_pay_purchase_amount_one_day_roi,omitempty"`
+	EventPayPurchaseAmountOneDayByConversionRoi *float64 `json:"event_pay_purchase_amount_one_day_by_conversion_roi,omitempty"`
+	EventPayPurchaseAmountOneDayRoi *float64 `json:"event_pay_purchase_amount_one_day_roi,omitempty"`
 	EventPayPurchaseAmountThreeDayByConversion *int64 `json:"event_pay_purchase_amount_three_day_by_conversion,omitempty"`
-	EventPayPurchaseAmountThreeDayByConversionRoi *int64 `json:"event_pay_purchase_amount_three_day_by_conversion_roi,omitempty"`
+	EventPayPurchaseAmountThreeDayByConversionRoi *float64 `json:"event_pay_purchase_amount_three_day_by_conversion_roi,omitempty"`
 	EventPayPurchaseAmountWeekByConversion *int64 `json:"event_pay_purchase_amount_week_by_conversion,omitempty"`
-	EventPayPurchaseAmountWeekByConversionRoi *int64 `json:"event_pay_purchase_amount_week_by_conversion_roi,omitempty"`
+	EventPayPurchaseAmountWeekByConversionRoi *float64 `json:"event_pay_purchase_amount_week_by_conversion_roi,omitempty"`
 	EventPayWeekByConversion *int64 `json:"event_pay_week_by_conversion,omitempty"`
 	EventPayWeekByConversionCost *float64 `json:"event_pay_week_by_conversion_cost,omitempty"`
 	EventPayWeightedPurchaseAmount *int64 `json:"event_pay_weighted_purchase_amount,omitempty"`
@@ -138,10 +138,10 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	ActionCost *float64 `json:"action_cost,omitempty"`
 	EventPayFirstDay *int64 `json:"event_pay_first_day,omitempty"`
 	EventPayPurchaseAmountFirstDay *int64 `json:"event_pay_purchase_amount_first_day,omitempty"`
-	EventPayFirstDayRoi *int64 `json:"event_pay_first_day_roi,omitempty"`
+	EventPayFirstDayRoi *float64 `json:"event_pay_first_day_roi,omitempty"`
 	EventPay *int64 `json:"event_pay,omitempty"`
 	EventPayPurchaseAmount *int64 `json:"event_pay_purchase_amount,omitempty"`
-	EventPayRoi *int64 `json:"event_pay_roi,omitempty"`
+	EventPayRoi *float64 `json:"event_pay_roi,omitempty"`
 	EventRegister *int64 `json:"event_register,omitempty"`
 	EventRegisterCost *float64 `json:"event_register_cost,omitempty"`
 	EventRegisterRatio *float64 `json:"event_register_ratio,omitempty"`
@@ -170,7 +170,7 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	AdProductCnt *int64 `json:"ad_product_cnt,omitempty"`
 	EventGoodsView *int64 `json:"event_goods_view,omitempty"`
 	MerchantRecoFans *int64 `json:"merchant_reco_fans,omitempty"`
-	EventOrderAmountRoi *int64 `json:"event_order_amount_roi,omitempty"`
+	EventOrderAmountRoi *float64 `json:"event_order_amount_roi,omitempty"`
 	EventGoodsViewCost *float64 `json:"event_goods_view_cost,omitempty"`
 	MerchantRecoFansCost *float64 `json:"merchant_reco_fans_cost,omitempty"`
 	EventNewUserPay *int64 `json:"event_new_user_pay,omitempty"`
@@ -181,19 +181,19 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventButtonClickRatio *float64 `json:"event_button_click_ratio,omitempty"`
 	Play5sRatio *float64 `json:"play_5s_ratio,omitempty"`
 	PlayEndRatio *float64 `json:"play_end_ratio,omitempty"`
-	EventOrderPaidRoi *int64 `json:"event_order_paid_roi,omitempty"`
+	EventOrderPaidRoi *float64 `json:"event_order_paid_roi,omitempty"`
 	EventNewUserJinjianApp *int64 `json:"event_new_user_jinjian_app,omitempty"`
 	EventNewUserJinjianAppCost *float64 `json:"event_new_user_jinjian_app_cost,omitempty"`
-	EventNewUserJinjianAppRoi *int64 `json:"event_new_user_jinjian_app_roi,omitempty"`
+	EventNewUserJinjianAppRoi *float64 `json:"event_new_user_jinjian_app_roi,omitempty"`
 	EventNewUserCreditGrantApp *int64 `json:"event_new_user_credit_grant_app,omitempty"`
 	EventNewUserCreditGrantAppCost *float64 `json:"event_new_user_credit_grant_app_cost,omitempty"`
-	EventNewUserCreditGrantAppRoi *int64 `json:"event_new_user_credit_grant_app_roi,omitempty"`
+	EventNewUserCreditGrantAppRoi *float64 `json:"event_new_user_credit_grant_app_roi,omitempty"`
 	EventNewUserJinjianPage *int64 `json:"event_new_user_jinjian_page,omitempty"`
 	EventNewUserJinjianPageCost *float64 `json:"event_new_user_jinjian_page_cost,omitempty"`
-	EventNewUserJinjianPageRoi *int64 `json:"event_new_user_jinjian_page_roi,omitempty"`
+	EventNewUserJinjianPageRoi *float64 `json:"event_new_user_jinjian_page_roi,omitempty"`
 	EventNewUserCreditGrantPage *int64 `json:"event_new_user_credit_grant_page,omitempty"`
 	EventNewUserCreditGrantPageCost *float64 `json:"event_new_user_credit_grant_page_cost,omitempty"`
-	EventNewUserCreditGrantPageRoi *int64 `json:"event_new_user_credit_grant_page_roi,omitempty"`
+	EventNewUserCreditGrantPageRoi *float64 `json:"event_new_user_credit_grant_page_roi,omitempty"`
 	EventAppointForm *int64 `json:"event_appoint_form,omitempty"`
 	EventAppointFormCost *float64 `json:"event_appoint_form_cost,omitempty"`
 	EventAppointFormRatio *float64 `json:"event_appoint_form_ratio,omitempty"`
@@ -242,7 +242,7 @@ type V1ReportMaterialReportResponseDetailsInner struct {
 	EventActive *int64 `json:"event_active,omitempty"`
 	EventOrderSubmitCost *float64 `json:"event_order_submit_cost,omitempty"`
 	OrderSubmitAmt *int64 `json:"order_submit_amt,omitempty"`
-	OrderSubmitRoi *int64 `json:"order_submit_roi,omitempty"`
+	OrderSubmitRoi *float64 `json:"order_submit_roi,omitempty"`
 	NativeFlowSoftCostTotal *float64 `json:"native_flow_soft_cost_total,omitempty"`
 	NativeCostTotal *float64 `json:"native_cost_total,omitempty"`
 	PhotoId *string `json:"photo_id,omitempty"`
