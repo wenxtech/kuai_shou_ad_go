@@ -117,7 +117,6 @@ type V1ReportCampaignReportResponseDataDetailsInner struct {
 	PlayedFiveSeconds *int64 `json:"played_five_seconds,omitempty"`
 	PlayedNum *int64 `json:"played_num,omitempty"`
 	PlayedThreeSeconds *int64 `json:"played_three_seconds,omitempty"`
-	AdScene *string `json:"adScene,omitempty"`
 	AdScene *string `json:"ad_scene,omitempty"`
 	PlacementType *string `json:"placement_type,omitempty"`
 	CancelFollow *int64 `json:"cancel_follow,omitempty"`
