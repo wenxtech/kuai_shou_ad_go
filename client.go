@@ -31,6 +31,12 @@ func Init(cfg *api.Configuration) *Client {
 	return client
 }
 // API Services
+func (c *Client) GwDspCreativeListAPI() *api.GwDspCreativeListAPIService {
+	return c.ApiClient.GwDspCreativeListAPI
+}
+func (c *Client) GwDspUnitListAPI() *api.GwDspUnitListAPIService {
+	return c.ApiClient.GwDspUnitListAPI
+}
 func (c *Client) Oauth2AuthorizeAccessTokenAPI() *api.Oauth2AuthorizeAccessTokenAPIService {
 	return c.ApiClient.Oauth2AuthorizeAccessTokenAPI
 }

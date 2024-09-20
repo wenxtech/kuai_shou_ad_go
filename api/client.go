@@ -48,6 +48,10 @@ type APIClient struct {
     mws    Middleware
 	// API Services
 
+	GwDspCreativeListAPI *GwDspCreativeListAPIService
+
+	GwDspUnitListAPI *GwDspUnitListAPIService
+
 	Oauth2AuthorizeAccessTokenAPI *Oauth2AuthorizeAccessTokenAPIService
 
 	Oauth2AuthorizeRefreshTokenAPI *Oauth2AuthorizeRefreshTokenAPIService
@@ -86,6 +90,8 @@ func NewAPIClient(cfg *Configuration) *APIClient {
 	c.common.client = c
 
 	// API Services
+	c.GwDspCreativeListAPI = (*GwDspCreativeListAPIService)(&c.common)
+	c.GwDspUnitListAPI = (*GwDspUnitListAPIService)(&c.common)
 	c.Oauth2AuthorizeAccessTokenAPI = (*Oauth2AuthorizeAccessTokenAPIService)(&c.common)
 	c.Oauth2AuthorizeRefreshTokenAPI = (*Oauth2AuthorizeRefreshTokenAPIService)(&c.common)
 	c.V1AsyncTaskCreateAPI = (*V1AsyncTaskCreateAPIService)(&c.common)

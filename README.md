@@ -77,6 +77,8 @@ All URIs are relative to *https://ad.e.kuaishou.com/rest/openapi*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
+*GwDspCreativeListAPI* | [**GwDspCreativeListGet**](docs/GwDspCreativeListAPI.md#gwdspcreativelistget) | **Get** /gw/dsp/creative/list | 查询自定义创意
+*GwDspUnitListAPI* | [**GwDspUnitListGet**](docs/GwDspUnitListAPI.md#gwdspunitlistget) | **Get** /gw/dsp/unit/list | 查询广告组
 *Oauth2AuthorizeAccessTokenAPI* | [**Oauth2AuthorizeAccessTokenPost**](docs/Oauth2AuthorizeAccessTokenAPI.md#oauth2authorizeaccesstokenpost) | **Post** /oauth2/authorize/access_token | 获取 token
 *Oauth2AuthorizeRefreshTokenAPI* | [**Oauth2AuthorizeRefreshTokenPost**](docs/Oauth2AuthorizeRefreshTokenAPI.md#oauth2authorizerefreshtokenpost) | **Post** /oauth2/authorize/refresh_token | 刷新 token
 *V1AsyncTaskCreateAPI* | [**V1AsyncTaskCreatePost**](docs/V1AsyncTaskCreateAPI.md#v1asynctaskcreatepost) | **Post** /v1/async_task/create | 创建历史数据查询任务
@@ -92,6 +94,22 @@ Class | Method | HTTP request | Description
 ## Documentation For Models
 
  - [CampaignStatus](docs/CampaignStatus.md)
+ - [GwDspCreativeListResponse](docs/GwDspCreativeListResponse.md)
+ - [GwDspCreativeListResponseData](docs/GwDspCreativeListResponseData.md)
+ - [GwDspCreativeListResponseDataDetailsInner](docs/GwDspCreativeListResponseDataDetailsInner.md)
+ - [GwDspCreativeListResponseDataDetailsInnerDisplayInfo](docs/GwDspCreativeListResponseDataDetailsInnerDisplayInfo.md)
+ - [GwDspCreativeListResponseDataDetailsInnerNewExposeTagInner](docs/GwDspCreativeListResponseDataDetailsInnerNewExposeTagInner.md)
+ - [GwDspCreativeListResponseDataDetailsInnerSplashPhotosInner](docs/GwDspCreativeListResponseDataDetailsInnerSplashPhotosInner.md)
+ - [GwDspCreativeListResponseDataDetailsInnerSplashPicturesInner](docs/GwDspCreativeListResponseDataDetailsInnerSplashPicturesInner.md)
+ - [GwDspCreativeListGetRequest](docs/GwDspCreativeListGetRequest.md)
+ - [GwDspUnitListResponse](docs/GwDspUnitListResponse.md)
+ - [GwDspUnitListResponseData](docs/GwDspUnitListResponseData.md)
+ - [GwDspUnitListResponseDataDetailsInner](docs/GwDspUnitListResponseDataDetailsInner.md)
+ - [GwDspUnitListResponseDataDetailsInnerAdvCardListInner](docs/GwDspUnitListResponseDataDetailsInnerAdvCardListInner.md)
+ - [GwDspUnitListResponseDataDetailsInnerCustomMiniAppData](docs/GwDspUnitListResponseDataDetailsInnerCustomMiniAppData.md)
+ - [GwDspUnitListResponseDataDetailsInnerSeriesCardInfo](docs/GwDspUnitListResponseDataDetailsInnerSeriesCardInfo.md)
+ - [GwDspUnitListResponseDataDetailsInnerTarget](docs/GwDspUnitListResponseDataDetailsInnerTarget.md)
+ - [GwDspUnitListGetRequest](docs/GwDspUnitListGetRequest.md)
  - [Oauth2AuthorizeAccessTokenResponse](docs/Oauth2AuthorizeAccessTokenResponse.md)
  - [Oauth2AuthorizeAccessTokenResponseData](docs/Oauth2AuthorizeAccessTokenResponseData.md)
  - [Oauth2AuthorizeAccessTokenPostRequest](docs/Oauth2AuthorizeAccessTokenPostRequest.md)
