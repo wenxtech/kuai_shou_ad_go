@@ -60,7 +60,7 @@ type GwDspUnitListResponseDataDetailsInner struct {
 	DayBudgetSchedule []string `json:"day_budget_schedule,omitempty"`
 	Status *int64 `json:"status,omitempty"`
 	ConsultId *int64 `json:"consult_id,omitempty"`
-	RoiRatio *int64 `json:"roi_ratio,omitempty"`
+	RoiRatio *float64 `json:"roi_ratio,omitempty"`
 	LiveComponentType *int64 `json:"live_component_type,omitempty"`
 	EnhanceConversionType *int64 `json:"enhance_conversion_type,omitempty"`
 	UnitType *int64 `json:"unit_type,omitempty"`
