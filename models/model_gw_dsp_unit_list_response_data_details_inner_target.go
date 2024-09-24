@@ -33,7 +33,7 @@ type GwDspUnitListResponseDataDetailsInnerTarget struct {
 	AppNames []string `json:"app_names,omitempty"`
 	IpType *int64 `json:"ip_type,omitempty"`
 	FilterConvertedLevel *int64 `json:"filter_converted_level,omitempty"`
-	Population []string `json:"population,omitempty"`
+	Population []int64 `json:"population,omitempty"`
 	PlatformOs *int64 `json:"platform_os,omitempty"`
 	FilterTimeRange *int64 `json:"filter_time_range,omitempty"`
 	BusinessInterest *string `json:"business_interest,omitempty"`
