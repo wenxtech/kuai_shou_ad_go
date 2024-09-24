@@ -22,14 +22,14 @@ type GwDspUnitListResponseDataDetailsInnerTarget struct {
 	UserType *int64 `json:"user_type,omitempty"`
 	Operators []string `json:"operators,omitempty"`
 	DistanceShow []string `json:"distance_show,omitempty"`
-	ExcludePopulation []string `json:"exclude_population,omitempty"`
-	DeviceBrandIds []string `json:"device_brand_ids,omitempty"`
-	AgesRange []string `json:"ages_range,omitempty"`
+	ExcludePopulation []int64 `json:"exclude_population,omitempty"`
+	DeviceBrandIds []int64 `json:"device_brand_ids,omitempty"`
+	AgesRange []int64 `json:"ages_range,omitempty"`
 	DistrictIds []string `json:"district_ids,omitempty"`
 	AndroidOsv *int64 `json:"android_osv,omitempty"`
 	BehaviorType *int64 `json:"behavior_type,omitempty"`
 	DisableInstalledAppSwitch *int64 `json:"disable_installed_app_switch,omitempty"`
-	AppIds []string `json:"app_ids,omitempty"`
+	AppIds []int64 `json:"app_ids,omitempty"`
 	AppNames []string `json:"app_names,omitempty"`
 	IpType *int64 `json:"ip_type,omitempty"`
 	FilterConvertedLevel *int64 `json:"filter_converted_level,omitempty"`
@@ -43,7 +43,7 @@ type GwDspUnitListResponseDataDetailsInnerTarget struct {
 	AppInterestIds []string `json:"app_interest_ids,omitempty"`
 	PaidAudience []string `json:"paid_audience,omitempty"`
 	IntelliExtendOption *int64 `json:"intelli_extend_option,omitempty"`
-	Region []string `json:"region,omitempty"`
+	Region []int64 `json:"region,omitempty"`
 	ExcludeMedia []string `json:"exclude_media,omitempty"`
 }
 
